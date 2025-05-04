@@ -54,7 +54,7 @@ class RandomForestFakeNewsClassifier(object):
 
         predictions = np.argmax(votes, axis=1)
         return predictions
-    
+
     def predict_probs(self, X):
         N = X.shape[0]
         votes = np.zeros((N, 2))

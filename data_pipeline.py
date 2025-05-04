@@ -14,7 +14,11 @@ parser.add_argument("--force-preprocess", action="store_true")
 args = parser.parse_args()
 # Usage: python data_pipeline.py --force-download
 models = ["logisticregression", "naivebayes", "randomforest"]
-model_file_name = {"logisticregression": "logistic_regression_model", "naivebayes": "naive_bayes_model", "randomforest": "random_forest_model"}
+model_file_name = {
+    "logisticregression": "logistic_regression_model",
+    "naivebayes": "naive_bayes_model",
+    "randomforest": "random_forest_model",
+}
 model_type = " "
 
 

@@ -3,13 +3,14 @@ from sklearn.metrics import (
     RocCurveDisplay,
     classification_report,
     PrecisionRecallDisplay,
-    average_precision_score
+    average_precision_score,
 )
 import matplotlib.pyplot as plt
 import pandas as pd
 import joblib
 
 fig, axis = plt.subplots(1, 4, figsize=(24, 12))
+
 
 def plot_classification_report(y_true, y_pred):
     report = classification_report(y_true, y_pred, output_dict=True)
@@ -52,7 +53,9 @@ def visualize(model_type="logisticregression"):
         y_pred = model.predict(X_test)
 
     # Plot 1: Confusion Matrix
-    ConfusionMatrixDisplay.from_predictions(y_test, y_pred, ax=axis[0], display_labels=["Real", "Fake"], colorbar=False)
+    ConfusionMatrixDisplay.from_predictions(
+        y_test, y_pred, ax=axis[0], display_labels=["Real", "Fake"], colorbar=False
+    )
     axis[0].set_title("Confusion Matrix")
 
     # Plot 2: ROC Curve
