@@ -28,7 +28,7 @@ Random Forest
 
 ### Logistic Regression
 #### Visualizations
-![logi1]('/Users/echen/GT/Spring 2025/logistic_regression.png')
+![logi1](/Users/echen/GT/Spring 2025/logistic_regression.png)
 ![logi2](https://github.gatech.edu/ML4641Team19/CS4641-Project/assets/64872/519b136e-23a8-469e-a306-7553ca8b002c)
 
 
