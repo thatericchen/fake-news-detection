@@ -28,8 +28,8 @@ Random Forest
 
 ### Logistic Regression
 #### Visualizations
-![logi1]('/Users/echen/GT/Spring 2025/fake-news-detection/logistic_regression.png')
-![logi2](https://github.gatech.edu/ML4641Team19/CS4641-Project/assets/64872/519b136e-23a8-469e-a306-7553ca8b002c)
+![logi1](assets/logistic_regression.png)
+![logi2](assets/logistic_regression2.png)
 
 
 #### Quantitative Metrics
@@ -59,8 +59,8 @@ The model performed well because logistic regression is effective for binary cla
 
 ### Naïve Bayes
 #### Visualizations
-![nb1](https://github.gatech.edu/ML4641Team19/CS4641-Project/assets/64872/84ac7145-e6bc-430b-ad1e-4dd93d3637bb)
-![nb2](https://github.gatech.edu/ML4641Team19/CS4641-Project/assets/64872/a37bc6a5-6eda-4760-9a01-97050eda11c5)
+![nb1](assets/naive.png)
+![nb2](assets/naive2.png)
 
 #### Quantitative Metrics
 - Precision: 0.9320
@@ -89,8 +89,8 @@ The Naïve Bayes model performed well because it is effective at analyzing high-
 
 ### Random Forest
 #### Visualizations
-![rf1](https://github.gatech.edu/ML4641Team19/CS4641-Project/assets/64872/fc315e8a-9edf-49e7-9d00-c4f545b0ba0c)
-![randomforest2](https://github.gatech.edu/ML4641Team19/CS4641-Project/assets/64872/2a0e67af-cc81-402d-842d-2f4986b613b2)
+![rf1](assets/random_forest.png)
+![randomforest2](assets/random_forest2.png)
 
 #### Quantitative Metrics
 - Precision: 0.9908
