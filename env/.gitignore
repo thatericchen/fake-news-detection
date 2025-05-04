@@ -1,0 +1,6 @@
+# data folder TOO BIG TO UPLOAD
+data/
+
+# Add anything else you don't need below here:
+__pycache__/
+*.pyc
