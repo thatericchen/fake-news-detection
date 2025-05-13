@@ -159,3 +159,6 @@ However, here are a few potential improvements we could explore.
 [5]  K. Shu, A. Sliva, S. Wang, J. Tang, and H. Liu, “Fake news detection on social media: A data mining perspective,” arXiv preprint, 2017. Available: https://arxiv.org/pdf/1708.01967. [Accessed: Feb. 20, 2025].
 
 [6]  R. Oshikawwa, J. Qian, and W. Y. Wang, “A survey on natural language processing for fake news detection,” arXiv preprint, 2018. Available: (https://arxiv.org/abs/1811.00770). [Accessed: Feb. 20, 2025].
+
+## Acknowledgements
+Eric Chen, Joshua Chio, Eugene Lee, Hiroki Sato, Ryan Yi
